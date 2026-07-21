@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register For A Tour</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="guud">
+        <header>
+            <h1>Sign Up</h1>
+            <nav>
+               <a href="home.htm">Home</a>
+                <a href="about.htm">About Us</a>
+                <a href="prices.htm">Prices</a>
+                <a href="register.htm">Register</a>
+                <a href="help.htm">Help</a> 
+            </nav>
+        </header>
+        <main>
+            <div class="last">
+            <h2>Booking Form</h2>
+            <p>Fill out your details below to reserve your space on an upcoming travel package.</p>
+            </div>
+            <form action="#" method="post">
+                <label for="magac">Your Name:</label>
+                <input type="text" id="magac" name="magac" required placeholder="Enter your full name">
+
+                <label for="i_meel">Your Email:</label>
+                <input type="email" id="i_meel" name="i_meel" required placeholder="Enter your email address">
+
+                <label for="xulasho">Choose Destination:</label>
+                <select id="xulasho" name="xulasho">
+                    <option value="tokyo">Tokyo, Japan</option>
+                    <option value="agra">Agra, India</option>
+                    <option value="bali">Bali, Indonesia</option>
+                </select>
+
+                <label>Hotel Preference:</label>
+                <div style="margin-top: 5px;">
+                    <input type="radio" id="rad1" name="hotel" value="standard" checked>
+                    <label style="display:inline; font-weight:normal;" for="rad1">Standard Accommodation</label><br>
+                    <input type="radio" id="rad2" name="hotel" value="luxury">
+                    <label style="display:inline; font-weight:normal;" for="rad2">Luxury Accommodation</label>
+                </div>
+
+                <label for="notes">Notes or Special Requests:</label>
+                <textarea id="notes" name="notes" rows="4" placeholder="Let us know about dietary restrictions, accessibility needs, or special requests..."></textarea>
+
+                <input type="submit" value="Submit Registration">
+            </form>
+        </main>
+        <footer>
+            <div class="footer-info">
+                <i class="fa-solid fa-earth-asia"></i>
+                <p class="p2">Ready for your adventure? Reserve your spot today and receive early booking options and personalized itinerary planning.</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <p>asiatour@gmail.com</p>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <p>asiatour101</p>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <P>asiatour0</P>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <p>asiatour01</p>
+            </div>
+            <small>&copy; 2026 Asia Tourism Group</small>
+        </footer>
+    </div>
+</body>
+</html>
